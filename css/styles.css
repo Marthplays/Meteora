@@ -1,0 +1,32 @@
+:root {   
+    --green: #DAFF01;
+    --purple: #9353FF;
+}
+
+.text-green {
+    color: var(--green);
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: var(--purple) !important;
+    border-color: var(--purple) !important;
+}
+
+.texto-menor {
+    font-size: 13px;
+
+}
+
+.divs-facilidades {
+    width: 325px;
+}
+
+.posicao{
+    top: 50%;
+}
+
+@media(max-width: 767px){
+    .posicao{
+        top:60%;
+    }
+}
